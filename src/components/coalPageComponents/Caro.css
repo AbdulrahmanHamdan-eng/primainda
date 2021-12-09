@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&family=Noto+Nastaliq+Urdu&display=swap');
+.carousel-indicators {
+  display: none;
+}
+.logo {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 99;
+}
+.text-shadow {
+  color: #fff;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  text-shadow: 3px 3px 20px #000000, -2px 1px 30px #000000;
+}
+@media screen and (min-width: 1450px) {
+  .logo {
+    top: 68%;
+  }
+}

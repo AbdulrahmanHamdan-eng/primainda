@@ -1,0 +1,46 @@
+.contact-section {
+  margin-top: 5rem;
+  background: none;
+}
+
+.contact-section h4 {
+  font-size: 1rem;
+}
+
+.social {
+  padding-bottom: 5rem;
+}
+.fa-whatsapp:before {
+  margin-right: 0.3rem;
+}
+.social i {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+.social .twitter:hover {
+  color: #1c9cea;
+}
+
+.social .facebook:hover {
+  color: #1877f2;
+}
+.social .instagram,
+.social .facebook,
+.social .twitter {
+  transition: color 0.1s;
+}
+.social .instagram:hover {
+  text-align: center;
+  border-radius: 5px;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webit-text-fill-color: transparent;
+}
