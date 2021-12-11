@@ -13,7 +13,7 @@ const Caro = () => {
         alt='logo'
       />
       <Carousel position-relative fade>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img
             className='d-block w-100 vh-100'
             src='images/sandal1.png'
@@ -27,7 +27,7 @@ const Caro = () => {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img
             className='d-block w-100 vh-100'
             src='images/sandal2.png'
@@ -39,7 +39,7 @@ const Caro = () => {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img
             className='d-block w-100 vh-100'
             src='images/bakoorImg.png'

@@ -11,7 +11,7 @@ const Cards = () => {
             <img className={coalStyles.img} src='images/coalImg1.png' />
           </div>
           <div className={`${coalStyles.content} text-center p-4`}>
-            <h4 className='fw-bold mb-3'>الفحم الصلب</h4>
+            <h4 className='fw-bold mb-3 mt-3'>الفحم الصلب</h4>
             <p className='fw-light' dir='rtl'>
               {' '}
               يستخدام الفحم الصلب بشكل أساسي كعنصر من مكونات قوالب الفحم.
@@ -34,7 +34,7 @@ const Cards = () => {
             <img className={coalStyles.img} src='images/coalImg4.png' />
           </div>
           <div className={`${coalStyles.content} text-center p-4`}>
-            <h4 className='fw-bold mb-3'>الفحم الحجري</h4>
+            <h4 className='fw-bold mb-3 mt-3'>الفحم الحجري</h4>
             <p className='fw-light' dir='rtl'>
               {' '}
               لو"ريم" ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج
@@ -57,7 +57,7 @@ const Cards = () => {
             />
           </div>
           <div className={`${coalStyles.content} text-center p-4`}>
-            <h4 className='fw-bold mb-3'>الفحم البني</h4>
+            <h4 className='fw-bold mb-3 mt-3'>الفحم البني</h4>
             <p className='fw-light' dir='rtl'>
               {' '}
               لو"ريم" ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج

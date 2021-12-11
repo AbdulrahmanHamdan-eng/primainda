@@ -13,7 +13,7 @@ const Caro = () => {
         alt='logo'
       />
       <Carousel position-relative fade>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img
             className='d-block w-100 vh-100'
             src='images/coalImg2.png'
@@ -26,7 +26,7 @@ const Caro = () => {
             <p className='text-shadow'>غير شاملة الضريبة *</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={1000}>
           <img
             className='d-block w-100 vh-100'
             src='images/coalImg3.png'

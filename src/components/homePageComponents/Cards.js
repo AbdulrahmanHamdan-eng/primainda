@@ -5,7 +5,7 @@ const Cards = () => {
     <section class='dark'>
       <div class='container py-4'>
         <article class='postcard dark' id='coal'>
-          <a class='postcard__img_link' href='#'>
+          <a class='postcard__img_link' href='/coal-page'>
             <img
               class='postcard__img'
               src='images/img1.png'
@@ -29,7 +29,7 @@ const Cards = () => {
           </div>
         </article>
         <article class='postcard dark red' id='sand'>
-          <a class='postcard__img_link' href='#'>
+          <a class='postcard__img_link' href='/sandal-page'>
             <img
               class='postcard__img'
               src='images/img2.jpg'
@@ -54,7 +54,7 @@ const Cards = () => {
           </div>
         </article>
         <article class='postcard dark green' id='maid'>
-          <a class='postcard__img_link' href='#'>
+          <a class='postcard__img_link' href='/'>
             <img
               class='postcard__img'
               src='images/img3.png'
@@ -63,7 +63,7 @@ const Cards = () => {
           </a>
           <div class='postcard__text'>
             <a href='#' className='postcard__title'>
-              الخدمات الصحية
+              خدمات العمالة
             </a>
 
             <div class='postcard__bar'></div>
@@ -79,7 +79,7 @@ const Cards = () => {
           </div>
         </article>
         <article class='postcard dark yellow' id='san'>
-          <a class='postcard__img_link' href='#'>
+          <a class='postcard__img_link' href='/'>
             <img
               class='postcard__img'
               src='images/img4.png'

@@ -15,7 +15,7 @@ const Cards = () => {
             />
           </div>
           <div className={`${sandalStyle.content} text-center p-4`}>
-            <h4 className='fw-bold mb-3'>زيت الصندل</h4>
+            <h4 className='fw-bold mb-3 mt-3'>زيت الصندل</h4>
             <p className='fw-light' dir='rtl'>
               {' '}
               يستخدام الفحم الصلب بشكل أساسي كعنصر من مكونات قوالب الفحم.
@@ -38,7 +38,7 @@ const Cards = () => {
             <img className={sandalStyle.img} src='images/sandal4.png' />
           </div>
           <div className={`${sandalStyle.content} text-center p-4`}>
-            <h4 className='fw-bold mb-3'>عود الصندل</h4>
+            <h4 className='fw-bold mb-3 mt-3'>عود الصندل</h4>
             <p className='fw-light' dir='rtl'>
               {' '}
               لو"ريم" ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج

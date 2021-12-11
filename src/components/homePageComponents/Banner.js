@@ -16,6 +16,7 @@ const Banner = () => {
       {/* <a href='#coal'> */}
       <img src='images/coalCircle.png' className='fourth' />
       {/* </a> */}
+      <h2 class='heading2'>محطتك لأجود المنتجات والخدمات</h2>
     </header>
   );
 };

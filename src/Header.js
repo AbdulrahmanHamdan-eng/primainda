@@ -26,10 +26,10 @@ const Header = () => {
               </NavLink>
             </div>
             <Dropdown className='dropdown-align-style'>
-              <Dropdown.Toggle id='dropdown-basic'> العربية</Dropdown.Toggle>
+              <Dropdown.Toggle id='dropdown-basic'> Language</Dropdown.Toggle>
               <Dropdown.Menu className='dropdown-style'>
-                <Dropdown.Item href='#/action-1'>الإنجليزية</Dropdown.Item>
-                <Dropdown.Item href='#/action-2'>الأندونوسية</Dropdown.Item>
+                <Dropdown.Item href='#/action-1'>English</Dropdown.Item>
+                <Dropdown.Item href='#/action-2'>Indonesian</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
             <div className='d-flex gap-4'>
